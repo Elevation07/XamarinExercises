@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinExercise1.Grid"
+             Padding="20,20,20,10"
+             BackgroundColor="Aqua"
+             Title="Grid">
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name ="btnClick"
+                Text ="CLICK ME!" 
+                BackgroundColor="Yellow" 
+                VerticalOptions="CenterAndExpand" 
+                Grid.Row="0" 
+                Grid.ColumnSpan="2" 
+                Clicked="Button_Clicked"/>
+
+
+        <BoxView Color="#23AFEA"
+                 CornerRadius="150"
+                 HeightRequest="150"
+                 WidthRequest="150"
+                 Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"  
+                 Opacity="100"
+                 />
+
+
+        <BoxView Color="#007BFF"
+                 CornerRadius="120"
+                 HeightRequest="100"
+                 WidthRequest="100"
+                 Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center" Opacity="100"
+                 />
+        <BoxView Color="#2646B0"
+                 CornerRadius="120"
+                 HeightRequest="50"
+                 WidthRequest="50"
+                 Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center" Opacity="100"
+                 />
+
+        <Label x:Name="labelText" 
+               Text="I am a Xamarin Developer." 
+               Grid.Row="2" 
+               Grid.ColumnSpan="2" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center" 
+               TextColor="Black" 
+               Margin=" 0,0,0,20"
+               />
+
+        <BoxView BackgroundColor="Blue" Grid.Row="3" Grid.Column="0"/>
+        <BoxView BackgroundColor="Red" Grid.Row="3" Grid.Column="1"/>
+        <BoxView BackgroundColor="Yellow" Grid.Row="4" Grid.Column="0"/>
+        <BoxView BackgroundColor="White" Grid.Row="4" Grid.Column="1"/>
+
+
+
+    </Grid>
+    
+     
+</ContentPage>
