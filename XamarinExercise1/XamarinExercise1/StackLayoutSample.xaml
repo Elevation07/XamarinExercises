@@ -26,6 +26,7 @@
             <StackLayout Orientation="Vertical" Spacing="0" >
  
                 <Label Text=" Title Text" 
+                       VerticalTextAlignment="end"
                        BackgroundColor="#F45E5E" 
                        HeightRequest="25" 
                        WidthRequest="150"/>

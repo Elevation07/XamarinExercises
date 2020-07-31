@@ -43,8 +43,8 @@
             <StackLayout BackgroundColor="Red" Orientation="Horizontal">
 
                 <Label Text="Label 1" BackgroundColor="Blue" HorizontalOptions ="FillAndExpand" />
-                <Label Text="Label 2" BackgroundColor="Aqua" HorizontalOptions ="FillAndExpand"/>
-                <Label Text="Label 3" BackgroundColor="Green" HorizontalOptions="FillAndExpand" />
+                <Label Text="Label 2" BackgroundColor="Aqua" HorizontalOptions ="FillAndExpand" HorizontalTextAlignment="Center"/>
+                <Label Text="Label 3" BackgroundColor="Green" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" />
 
             </StackLayout>
 

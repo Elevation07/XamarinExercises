@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:custom ="clr-namespace:XamarinExercise1;assembly=XamarinExercise1"
+             mc:Ignorable="d"
+             Title="Profile Page"
+             BackgroundColor="Aqua"
+             x:Class="XamarinExercise1.ProfilePage"
+             xmlns:local ="clr-namespace:XamarinExercise1" xmlns:local1="clr-namespace:XamarinExercise1.Model">
+
+    <ContentPage.BindingContext>
+        <local1:ProfilePageModel/>
+
+    </ContentPage.BindingContext>
+   
+        <StackLayout Padding="10,0,0,0">
+            <Image Source="{Binding Image}"               
+                   Aspect="AspectFit"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   BackgroundColor="Aqua">
+                
+            </Image>
+            <Label Text="Name">
+                
+            </Label>
+            <custom:MyEntry Text="{Binding Name}"
+                            IsEnabled="False"
+                            >
+            <custom:MyEntry.Triggers>
+                <MultiTrigger TargetType="custom:MyEntry">
+
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding="{Binding Source={x:Reference Button}, Path = StyleId}"
+                          Value="1" />
+
+                    </MultiTrigger.Conditions>
+                    <Setter Property="IsEnabled" Value="True"   />
+
+                </MultiTrigger>
+            </custom:MyEntry.Triggers>
+
+        </custom:MyEntry>
+            
+            <Label Text="Address">
+
+            </Label>
+            <custom:MyEntry Text="{Binding Address}"
+                            IsEnabled="False">
+            <custom:MyEntry.Triggers>
+                <MultiTrigger TargetType="custom:MyEntry">
+
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding="{Binding Source={x:Reference Button}, Path = StyleId}"
+                          Value="1" />
+
+                    </MultiTrigger.Conditions>
+                    <Setter Property="IsEnabled" Value="True"   />
+
+                </MultiTrigger>
+            </custom:MyEntry.Triggers>
+
+        </custom:MyEntry>
+
+            <Label Text="Email">
+
+            </Label>
+            <custom:MyEntry Text="{Binding Email}"
+                            IsEnabled="False">
+
+            <custom:MyEntry.Triggers>
+                <MultiTrigger TargetType="custom:MyEntry">
+
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding="{Binding Source={x:Reference Button}, Path = StyleId}"
+                          Value="1" />
+
+                    </MultiTrigger.Conditions>
+                    <Setter Property="IsEnabled" Value="True"   />
+
+                </MultiTrigger>
+            </custom:MyEntry.Triggers>
+
+        </custom:MyEntry>
+
+        <Label Text="Phone Number">
+
+        </Label>
+
+        <StackLayout Orientation="Horizontal" Spacing="0">
+
+            <custom:MyEntry Text="+63"
+                            IsEnabled="False"
+                            Margin="0"
+                            >
+
+            </custom:MyEntry>
+
+
+            <custom:MyEntry Text="{Binding Phone}"
+                            IsEnabled="False"
+                            MaxLength="10"
+                            Keyboard="Numeric"
+                            Margin="0">
+                <custom:MyEntry.Triggers>
+                    <MultiTrigger TargetType="custom:MyEntry">
+
+                        <MultiTrigger.Conditions>
+                            <BindingCondition Binding="{Binding Source={x:Reference Button}, Path = StyleId}"
+                          Value="1" />
+
+                        </MultiTrigger.Conditions>
+                        <Setter Property="IsEnabled" Value="True"   />
+
+                    </MultiTrigger>
+                </custom:MyEntry.Triggers>
+
+            </custom:MyEntry>
+
+        </StackLayout>
+
+        <custom:MyButton x:Name="Button"
+                         Text="Edit"
+                         StyleId="0"
+                         VerticalOptions="EndAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+            <custom:MyButton.Triggers>
+                <EventTrigger Event="Clicked">
+                    <local:ButtonTrigger></local:ButtonTrigger>
+                </EventTrigger>
+            </custom:MyButton.Triggers>
+            
+            
+
+        </custom:MyButton>
+
+
+
+
+
+
+
+    </StackLayout>
+    
+</ContentPage>

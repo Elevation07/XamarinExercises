@@ -19,24 +19,39 @@ namespace XamarinExercise1
 
         }
 
-        async void Button_Clicked(object sender, EventArgs e)
+       void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new StacklayoutBasicPage());
+            switch(int.Parse((sender as Button).StyleId))
+            {
+                case 0:
+                    Navigation.PushAsync(new StacklayoutBasicPage());
+                    break;
+
+                case 1:
+                    Navigation.PushAsync(new LayoutOptions());
+                    break;
+
+                case 2:
+                    Navigation.PushAsync(new StackLayoutSample());
+                    break;
+
+                case 3:
+                    Navigation.PushAsync(new Grid());
+                    break;
+
+                case 4:
+                    Navigation.PushAsync(new ProfilePage());
+                    break;
+
+                case 5:
+                    Navigation.PushAsync(new SecondPage());
+                    break;
+
+
+            }
+            
         }
 
-        async void Button_Clicked_1(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new LayoutOptions());
-        }
-
-        async void Button_Clicked_2(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new StackLayoutSample());
-        }
-
-        async void Button_Clicked_3(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Grid());
-        }
+   
     }
 }
