@@ -17,3 +17,6 @@ D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\StackLayoutSample.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\SecondPage.xaml.g.cs
+D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\XamarinExercise1.csprojAssemblyReference.cache
+D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\TelephoneBehaviorPage.xaml.g.cs
+D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\DependencyAudio.xaml.g.cs

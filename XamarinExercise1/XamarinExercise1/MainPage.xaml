@@ -47,6 +47,16 @@
                     VerticalOptions="Center" 
                     Clicked="Button_Clicked"
                      StyleId ="5"/>
+            <Button Text="Behavior" 
+                    Margin="0,5,0,0" 
+                    VerticalOptions="Center" 
+                    Clicked="Button_Clicked"
+                     StyleId ="6"/>
+            <Button Text="Dependency" 
+                    Margin="0,5,0,0" 
+                    VerticalOptions="Center" 
+                    Clicked="Button_Clicked"
+                     StyleId ="7"/>
 
 
 

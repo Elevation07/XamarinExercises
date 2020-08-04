@@ -47,6 +47,14 @@ namespace XamarinExercise1
                     Navigation.PushAsync(new SecondPage());
                     break;
 
+                case 6:
+                    Navigation.PushAsync(new TelephoneBehaviorPage());
+                    break;
+
+                case 7:
+                    Navigation.PushAsync(new DependencyAudio());
+                    break;
+
 
             }
             

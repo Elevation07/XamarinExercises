@@ -477,3 +477,4 @@ D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1.Android\ob
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1.Android\obj\Debug\90\res\drawable\user1.png
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1.Android\obj\Debug\90\android\src\crc64d537d9865e573687\MyButtonRenderer.java
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1.Android\obj\Debug\90\android\src\crc64d537d9865e573687\MyEntryRenderer.java
+D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1.Android\obj\Debug\90\res\drawable\music.mp3
