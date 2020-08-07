@@ -8278,9 +8278,6 @@ namespace XamarinExercise1.Droid
 			// aapt resource value: 0x7F070056
 			public const int avd_show_password = 2131165270;
 			
-			// aapt resource value: 0x7F070000
-			public const int Bella_Ciao___La_Casa_de_Papel__ringtone_ = 2131165184;
-			
 			// aapt resource value: 0x7F070057
 			public const int design_bottom_navigation_item_background = 2131165271;
 			
@@ -8313,6 +8310,9 @@ namespace XamarinExercise1.Droid
 			
 			// aapt resource value: 0x7F070061
 			public const int mtrl_tabs_default_indicator = 2131165281;
+			
+			// aapt resource value: 0x7F070000
+			public const int Music = 2131165184;
 			
 			// aapt resource value: 0x7F070062
 			public const int navigation_empty_icon = 2131165282;

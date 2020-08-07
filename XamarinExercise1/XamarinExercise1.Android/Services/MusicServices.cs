@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 using Android.App;
@@ -10,8 +11,10 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using XamarinExercise1.Droid.Services;
 using XamarinExercise1.Services;
 
+[assembly: Xamarin.Forms.Dependency(typeof(MusicServices))]
 namespace XamarinExercise1.Droid.Services
 {
     public class MusicServices : ISound
@@ -21,9 +24,8 @@ namespace XamarinExercise1.Droid.Services
         private MediaPlayer _mediaPlayer;
         public void PlayMp3File(string fileName)
         {
-            throw new NotImplementedException();
+            
             _mediaPlayer = MediaPlayer.Create(Application.Context, Resource.Drawable.Music);
-            _mediaPlayer.Prepare();
             _mediaPlayer.Start();
 
 

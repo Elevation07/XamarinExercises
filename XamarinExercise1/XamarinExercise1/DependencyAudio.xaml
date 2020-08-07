@@ -9,7 +9,8 @@
     
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
-            <Button Text="Play music" Clicked="Button_Clicked" />
+            <Button Text="Play music" Clicked="Button_Clicked"
+                   />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
