@@ -8,7 +8,7 @@ namespace XamarinExercise1.Services
     {
         
 		void PlayMp3File(string fileName);
-      
+        void PauseMp3File(string fileName);
     }
 
 }

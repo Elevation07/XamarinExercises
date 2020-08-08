@@ -15,6 +15,8 @@ namespace XamarinExercise1
    
     public partial class DependencyAudio : ContentPage
     {
+
+        bool audioClickButton = false;
         public DependencyAudio()
         {
             InitializeComponent();
@@ -22,7 +24,26 @@ namespace XamarinExercise1
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DependencyService.Get<ISound>().PlayMp3File("Music.mp3");
+           
+            if(audioClickButton != true)
+            {
+
+                DependencyService.Get<ISound>().PlayMp3File("Music.mp3");
+                buttonPlay.Text = "PAUSE";
+                audioClickButton = true;
+
+            }
+            else
+            {              
+                        
+                DependencyService.Get<ISound>().PauseMp3File("Music.mp3");
+                buttonPlay.Text = "PLAY";
+                audioClickButton = false;
+
+            }
+
         }
+
+     
     }
 }

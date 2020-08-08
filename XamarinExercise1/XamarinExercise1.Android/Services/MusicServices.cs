@@ -30,5 +30,11 @@ namespace XamarinExercise1.Droid.Services
 
 
         }
+
+        public void PauseMp3File(string fileName)
+        {
+           // _mediaPlayer = MediaPlayer.Create(Application.Context, Resource.Drawable.Music);
+            _mediaPlayer.Pause();
+        }
     }
 }

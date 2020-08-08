@@ -8,9 +8,15 @@
     
     
     <ContentPage.Content>
+        
         <StackLayout VerticalOptions="Center">
-            <Button Text="Play music" Clicked="Button_Clicked"
+            <Button x:Name="buttonPlay"
+                Text="PLAY" Clicked="Button_Clicked"
+                    IsEnabled="True"
                    />
+
+          
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

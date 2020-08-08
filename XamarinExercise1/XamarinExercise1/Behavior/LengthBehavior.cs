@@ -36,13 +36,6 @@ namespace BehaviorPhone
                 entry.Text = entryText;
             }
 
-            if (MinLength > 0)
-                if (entry.Text.Length < this.MinLength)
-                {
-                    ((Entry)sender).TextColor = Color.Red;
-                }
-                else
-                    ((Entry)sender).TextColor = Color.Black;
         }
     }
 }
