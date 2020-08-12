@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+            
              x:Class="XamarinExercise1.MainPage"
              Title="Main Page">
 
@@ -57,7 +58,13 @@
                     VerticalOptions="Center" 
                     Clicked="Button_Clicked"
                      StyleId ="7"/>
+            <Button Text="Collection View" 
+                    Margin="0,5,0,0" 
+                    VerticalOptions="Center" 
+                    Clicked="Button_Clicked"
+                     StyleId ="8"/>
 
+            
 
 
 

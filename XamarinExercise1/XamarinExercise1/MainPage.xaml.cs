@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
+using XamarinExercise1.ViewModel;
+using XamarinExercise1.Views;
 
 namespace XamarinExercise1
 {
@@ -13,11 +11,17 @@ namespace XamarinExercise1
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+
+      
         public MainPage()
+
         {
             InitializeComponent();
 
+          
         }
+
+
 
        void Button_Clicked(object sender, EventArgs e)
         {
@@ -53,6 +57,10 @@ namespace XamarinExercise1
 
                 case 7:
                     Navigation.PushAsync(new DependencyAudio());
+                    break;
+
+                case 8:
+                    Navigation.PushAsync(new VerticalListPage());
                     break;
 
 
