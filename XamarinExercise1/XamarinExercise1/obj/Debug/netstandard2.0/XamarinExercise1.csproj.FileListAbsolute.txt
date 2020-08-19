@@ -9,9 +9,11 @@ D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\SecondPage.xaml.g.cs
+D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\SignUpPage.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\StacklayoutBasicPage.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\StackLayoutSample.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\TelephoneBehaviorPage.xaml.g.cs
+D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\Views\VerticalListPage.xaml.g.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\XamarinExercise1.AssemblyInfoInputs.cache
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\XamarinExercise1.AssemblyInfo.cs
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\XamarinExercise1.csproj.CoreCompileInputs.cache
@@ -20,4 +22,3 @@ D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\ref\XamarinExercise1.dll
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\XamarinExercise1.pdb
 D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\XamarinExercise1.csprojAssemblyReference.cache
-D:\XamarinProjects\XamarinExercise1\XamarinExercise1\XamarinExercise1\obj\Debug\netstandard2.0\Views\VerticalListPage.xaml.g.cs

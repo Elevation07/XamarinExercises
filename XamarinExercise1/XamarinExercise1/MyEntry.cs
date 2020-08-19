@@ -8,5 +8,6 @@ namespace XamarinExercise1
     public class MyEntry : Entry
     {
 
+
     }
 }

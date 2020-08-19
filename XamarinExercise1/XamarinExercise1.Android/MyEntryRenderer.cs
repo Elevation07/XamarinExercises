@@ -5,12 +5,15 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics.Drawables;
+using Android.Graphics.Drawables.Shapes;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+using Xamarin.Forms.Shapes;
 using XamarinExercise1;
 using XamarinExercise1.Droid;
 
@@ -30,8 +33,9 @@ namespace XamarinExercise1.Droid
 
             if (Control != null)
             {
+               
                 Control.SetBackgroundColor(global::Android.Graphics.Color.Transparent);
-
+                
             }
         }
     }

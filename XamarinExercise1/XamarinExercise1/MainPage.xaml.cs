@@ -63,9 +63,14 @@ namespace XamarinExercise1
                     Navigation.PushAsync(new VerticalListPage());
                     break;
 
+                case 9:
+                    Navigation.PushAsync(new SignUpPage());
+                    break;
+
+
 
             }
-            
+
         }
 
    

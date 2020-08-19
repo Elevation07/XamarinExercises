@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:custom="clr-namespace:XamarinExercise1;assembly=XamarinExercise1"
+             mc:Ignorable="d"
+             x:Class="XamarinExercise1.SignUpPage"
+             Title="UI Sign Up Page"
+            >
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackLayout VerticalOptions="Start"  BackgroundColor="OrangeRed" HeightRequest="100" Grid.Row="0" >
+
+                </StackLayout>
+                <StackLayout Margin="10" Grid.Row="0" BackgroundColor="#DC143C" HeightRequest="620">
+                    
+                    <Label Text="HeyU" 
+                           TextColor="AntiqueWhite" 
+                           FontSize="64" 
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,100,0,0"/>
+                    
+                    <Label Text="Free chat app template" 
+                           Margin="0" 
+                           TextColor="AntiqueWhite"
+                           HorizontalOptions="Center"
+                           FontSize="20"
+                          />
+                    
+                    <custom:EntryNew Text="johndoe@symu.co"
+                                     HorizontalTextAlignment="Center"
+                                     TextColor="AntiqueWhite"                                                               
+                                     HeightRequest="40" WidthRequest="230"
+                                     Margin="0,100,0,0"
+                                     HorizontalOptions="Center"
+                                     Keyboard="Email"/>
+
+                    <custom:EntryNew Text="**************"
+                                     HorizontalTextAlignment="Center"
+                                     TextColor="AntiqueWhite"                                  
+                                     HeightRequest="40" WidthRequest="230"
+                                     IsPassword="True"
+                                      Margin="0,20,0,0"                                 
+                                     HorizontalOptions="Center"/>
+
+                    <custom:MyButton CornerRadius="15"
+                                     Text="Sign up"
+                                     BackgroundColor="White"
+                                     TextColor="Red"
+                                     HeightRequest="40" WidthRequest="230"
+                                     FontSize="Small"
+                                     Margin="0,60,0,0"
+                                     HorizontalOptions="Center"/>
+                    <Label Text="Already have an account? Sign in" 
+                           FontSize="Small" 
+                           TextColor="AntiqueWhite"
+                           HorizontalOptions="Center"/>
+
+                </StackLayout>
+
+            </Grid>
+   
+           
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
